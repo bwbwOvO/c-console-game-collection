@@ -47,7 +47,8 @@ int gameover(int ai, int play)
 	printf("\n");
 	return 0;
 }
-int guize() {
+int guize() //游戏规则介绍
+{
 	if (gamenum == 1) {
 		printf("我们来玩猜拳游戏吧\n游戏规则 1;代表石头 2；代表剪刀 3；代表布\n你先出(输入99可以结束游戏)\n");
 	}
